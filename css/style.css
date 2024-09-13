@@ -1,8 +1,39 @@
 body {
   font-family: 'Poppins', sans-serif;
-  color: #000000;
+  color: #f5f5f5;
   background-color: #dbae34;
   font-family: 'Arial', sans-serif !important;
+}
+
+
+.button-container {
+  text-align: center; /* Centers the button horizontally */
+  margin-top: 20px;   /* Adds some space above the button */
+}
+
+.see-more-btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #dbae34; /* Gold color */
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.see-more-btn:hover {
+  background-color: #b8860b; /* Darker gold on hover */
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+
+.cl-blck{
+  color: #000 !important;
+
+}
+.cl-white{
+  color: #dbae34;
 }
 
 .hover-heading {
@@ -37,6 +68,10 @@ color: #000;
   }
 .question-mark-wrapper{
   display: none;
+}
+.edit-cn{
+  height: 80em;
+  border-radius: 30px;
 }
 }
 
@@ -479,8 +514,10 @@ h5{
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   padding: 10px 15px;
-  color: #ffffff;
+  color: #dbae34;
   text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 a,
@@ -1013,7 +1050,7 @@ a:focus {
 /* info section */
 .info_section {
   position: relative;
-  background-color: #1a2e35;
+  background-color: #85828217;
   color: #ffffff;
 }
 
@@ -1113,8 +1150,8 @@ a:focus {
 .info_section .info_form form button {
   display: inline-block;
   padding: 8px 40px;
-  background-color: #ff4f5a;
-  color: #ffffff;
+  background-color: #dbae34;
+  color: #000000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
@@ -1127,8 +1164,8 @@ a:focus {
 
 .info_section .info_form form button:hover {
   background-color: transparent;
-  border-color: #ff4f5a;
-  color: #ff4f5a;
+  border-color: #999999;
+  color: #dbae34;
 }
 
 .info_section .info_contact .link-box {
@@ -1177,11 +1214,12 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #fdfeff;
+  background-color: #000000;
 }
 
 .footer_section p {
-  color: #171717;
+  color: #dbae34;
+  font-weight: bold;
   margin: 0;
   padding: 25px 0 20px 0;
   margin: 0 auto;
@@ -1189,7 +1227,7 @@ a:focus {
 }
 
 .footer_section a {
-  color: #171717;
+  color: #dbae34;
 }
 
 /* end footer section*/
