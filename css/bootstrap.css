@@ -479,6 +479,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 17px;
 }
 
 .img-thumbnail {
@@ -6301,6 +6302,7 @@ a.close.disabled {
 
 .carousel-control-prev,
 .carousel-control-next {
+  display: none !important;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -6528,7 +6530,7 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #28a745 !important;
+  background-color: #000 !important;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -6568,7 +6570,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #000 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -8184,7 +8186,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 12rem !important;
 }
 
 .pr-5,
