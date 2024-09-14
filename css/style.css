@@ -1611,9 +1611,8 @@ align-items: center;
 
 @media(max-width:768px){
   .delivery-section-contents{
-    width: 400px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    width: auto;
+   padding: 22px
   }
   /* .delivery-section-left{
     
