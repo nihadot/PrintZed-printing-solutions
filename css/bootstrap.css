@@ -6570,7 +6570,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #000 !important;
+  background-color: white !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6590,7 +6590,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #000 !important;
 }
 
 .bg-transparent {
@@ -9899,7 +9899,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #f8f9fa !important;
+  color: #000 !important;
 }
 
 a.text-light:hover, a.text-light:focus {

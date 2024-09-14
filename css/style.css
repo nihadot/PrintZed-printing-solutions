@@ -13,6 +13,54 @@ body {
   background-color: black; /* Background color so content won't overlap */
   transition: background-color 0.3s ease; /* Optional smooth background transition */
 }
+.fnt{
+  font-size: 22px;
+}
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+.bi {
+        font-size: 1.5rem;
+    }
+
+    .input-group-text {
+        background-color: #000;
+        border: none;
+    }
+
+    .form-control {
+        border: 1px solid #ced4da;
+        border-radius: 0;
+    }
+
+    .form-control:focus {
+        border-color: #000;
+        box-shadow: none;
+    }
+
+    .btn-dark {
+        background-color: #000;
+        border-color: #000;
+    }
+
+    .btn-dark:hover {
+        background-color: #333;
+        border-color: #333;
+    }
 .top-right-img {
   position: absolute;
   top: 0;
@@ -20,7 +68,9 @@ body {
   width: 100px; /* Adjust the size as needed */
   z-index: 1; /* Ensure it stays on top of the carousel */
 }
-
+.edit-cn{
+  background-color: white;
+}
 .bottom-left-img {
   position: absolute;
   bottom: 0;
@@ -59,7 +109,9 @@ body {
   background-color: #b8860b; /* Darker gold on hover */
   transform: scale(1.05); /* Slightly enlarges the button on hover */
 }
-
+.height-ad{
+  height: 50em;
+}
 
 .cl-blck{
   color: #000 !important;
@@ -112,6 +164,9 @@ color: #000;
 .bottom-left-img{
   display: none;
 }
+.co{
+  margin-top: 5em;
+}
 }
 
 
@@ -120,6 +175,35 @@ color: #000;
   .navbar-brand img {
     width: 221px !important;
     margin-right: 5px;
+  }
+  .contact-US{
+    margin-left: 3em;
+  }
+  .img-down{
+    
+
+  
+  margin-left: 12em;
+  margin-top: 13em;
+  }
+  .prn{
+    margin-left: 8em;
+  }
+  .call-{
+    margin-left: 5em;
+  }
+  .edit-cn{
+    background-color: #ffffff;
+        width: 100vw;
+        max-width: 98vw !important;
+        margin-left: 10px;
+  }
+  .frm{
+    width: 43em;
+    margin-left: 5em;
+  }
+  .staff-login{
+    margin-left: 38em;
   }
   .img-offer{
     height: 19em;
@@ -142,15 +226,111 @@ color: #000;
   .m-top-adj{
     margin-top: 4em;
   }
+  .print-service-icon-item {
+    width: 8em;
+  }
   .top-right-img{
-    width: 24em;
+    width: 22em !important;
+    position: absolute;
+    top: -45px;
+    right: 124px;
+    width: 100px;
+    z-index: 1;
+  }
+  .ft{
+    margin-top: -12em;
+  }
+  .looking{
+    font-size: 49px;
+    font-weight: bold
   }
   .bottom-left-img{
     width: 28em;
   }
+  
+  .print-services-title{
+    font-size: 4rem !important;
+  }
 }
 
+.print-services-container {
+  background-color: #f0c01f;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
 
+.print-services-content {
+  width: 60%;
+}
+
+.print-services-title {
+  font-size: 3rem;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.print-services-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.print-services-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.print-service-icon-item {
+  text-align: center;
+  color: #000;
+  background-color: #000;
+  border-radius: 10px;
+  
+}
+
+.print-service-icon-item img {
+  width: 50px;
+  height: 50px;
+}
+
+.print-service-icon-item p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.print-services-location-pin {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.print-services-pin-circle {
+  background-color: #21252a;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 70%, 50% 100%, 0% 70%);
+}
+
+.print-services-pin-circle::before {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+}
 
 
 
@@ -178,7 +358,7 @@ body{
 .logos{
   overflow:hidden;
   padding:60px 0 ;
-  background:rgb(0, 0, 0);
+  background:rgb(255, 255, 255);
   white-space:nowrap;
   position:relative;
 }
@@ -378,13 +558,13 @@ h2 {
 .workflow {
   text-align: center;
   padding: 40px 20px;
-  background-color: #000000;
+  background-color: #f5f5f5;
 }
 
 .workflow h1 {
   font-size: 2rem;
   margin-bottom: 21px;
-  color: #dbae34;
+  color: #000000;
   font-weight: bold !important;
   font-size: 41px;
 }
@@ -396,7 +576,7 @@ h2 {
 
   max-width: 800px;
   margin: 0 auto 40px auto;
-  color: #ffffff;
+  color: #000000;
 }
 
 .workflow-container {
@@ -440,7 +620,7 @@ h2 {
   width: 50px;
   height: 2px;
   background-color: transparent;
-  border: 2px dashed #ffffff;
+  border: 2px dashed #000000;
   margin: 10px;
 }
 
@@ -1214,6 +1394,7 @@ a:focus {
   margin-top: 15px;
   text-transform: uppercase;
   font-size: 15px;
+  font-size: bold;
 }
 
 .info_section .info_form form button:hover {
