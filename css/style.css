@@ -167,6 +167,10 @@ color: #000;
 .co{
   margin-top: 5em;
 }
+.workflow{
+  margin-top: 33em!important;
+
+}
 }
 
 
@@ -175,6 +179,13 @@ color: #000;
   .navbar-brand img {
     width: 221px !important;
     margin-right: 5px;
+  }
+  .pc-scr{
+    height: 50em !important;
+  }
+  .workflow{
+    margin-top: 11em!important;
+
   }
   .contact-US{
     margin-left: 3em;
@@ -639,6 +650,7 @@ h2 {
   .slider_section .img-container .img-box img {
     width: 42em !important;
     margin-left: -3em;
+    margin-top: 7em;
   }
 }
 
@@ -687,7 +699,7 @@ h5{
 .hero_area {
   height: calc(100vh - 30px);
   background: -webkit-gradient(linear, left top, right top, color-stop(55%, #1a2e35), color-stop(55%, #1cbbb4));
-  background: linear-gradient(to right, #000000 55%, #000000 55%);
+  background: linear-gradient(to right, #000000 55%, #dbae34 55%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -823,7 +835,7 @@ a:focus {
   background-size: 30px;
   width: 32px;
   height: 32px;
-  
+  marrgin-
 }
 
 .lg_toggl-btn {
