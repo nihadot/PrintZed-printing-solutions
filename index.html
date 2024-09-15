@@ -29,7 +29,7 @@
 <body>
   <div class="hero_area pc-scr" style="height: 40em;">
     <!-- header section strats -->
-    <header class="header_section">
+    <!-- <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="index.html">
@@ -64,16 +64,7 @@
             
             
             </ul>
-            <!-- <div class="user_option">
-              <a href="">
-                <span>
-                  Login
-                </span>
-              </a>
-              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
-            </div> -->
+          
           </div>
           <div>
             <div class="custom_menu-btn ">
@@ -93,7 +84,62 @@
 
         </nav>
       </div>
-    </header>
+    </header> -->
+
+   <header style="background-color: transparent;">
+    <div class="">
+
+    <nav class="navbar navbar-expand-lg navbar-light" >
+      <a class="navbar-brand" href="index.html">
+        <img src="img/print-logo.png" alt="" class="logo-img" />
+
+      </a>
+      <button style="background-color: white;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto justify-content-center" style="max-width: 450px;width: 100%;">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+        </ul>
+        <div class="navbar-text text-white text-center" style="display: flex;gap: 5px;justify-content: center;">
+          <div class="" style="border-radius: 100px;width: 35px;height: 35px;background-color: black;display: flex;justify-content: center;align-items: center;">
+            <img src="./icons/user-svgrepo-com.svg" style="width: 18px;height: 18px;" alt="">
+          </div>
+         <button style="width: 120px;border-radius:6px;border:none;height: 35px;background-color: black;color:white;font-size: 15px">Staff Log in</button>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <style>
+    .nav-link{
+      font-weight: 500;
+    }
+    .nav-link:hover{
+      border-bottom: 2px solid #dbae34;
+      border-radius: 2px;
+      transition: all ease-in-out;
+    }
+    .logo-img{
+      width: 20px;height:80px;object-fit:contain
+    }
+  </style>
+
+   </header>
     <!-- end header section -->
     <!-- slider section -->
     <section class="slider_section ">
@@ -232,18 +278,18 @@
     <div class="workflow-container">
       
 
-      <div class="step" data-aos="zoom-in" data-aos-duration="2500">
+      <div class="step" data-aos="zoom-in" data-aos-duration="2500" style="display: flex;flex-direction: column;justify-content: end;">
         <img class="top-right-img" src="img/PILLOW.png" alt="Top Right Image">
         <div class="icon"><svg class="svg-wrkflow" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
             viewBox="0 0 256 256">
             <path fill="black"
               d="m243.31 81.36l-68.68-68.68a16 16 0 0 0-22.63 0l-28.44 28.44l-58 21.76a16 16 0 0 0-10.2 12.35l-20.77 124.6a4 4 0 0 0 6.77 3.49l57-57a23.85 23.85 0 0 1-2.29-12.08a24 24 0 1 1 13.6 23.4l-57 57a4 4 0 0 0 3.49 6.77l124.61-20.77a16 16 0 0 0 12.35-10.16l21.77-58.07L243.31 104a16 16 0 0 0 0-22.63ZM208 116.68L139.32 48l24-24L232 92.68Z" />
           </svg></div>
-        <h3>Designing</h3>
+        <h3 style="font-size:20px">Designing</h3>
       </div>
       <div class="dashed-line"></div>
       <div class="step" data-aos="zoom-in" data-aos-duration="2800">
-        <div class="icon"><svg class="svg-wrkflow" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+        <!-- <div class="icon"><svg class="svg-wrkflow" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
             viewBox="0 0 20 20">
             <g fill="black">
               <path fill-rule="evenodd"
@@ -258,12 +304,12 @@
                 d="m5.047 5.068l-.197-.46l-.197-.46l.04-.016l.113-.048a93 93 0 0 1 1.67-.69a38 38 0 0 1 1.372-.523c.203-.072.392-.134.55-.179c.136-.04.31-.084.452-.084c.13 0 .267.03.38.06c.122.033.256.077.392.127c.274.1.583.23.869.356a29 29 0 0 1 .992.466l.066.032l.018.009l.006.003a.5.5 0 0 1-.447.895l-.005-.003l-.016-.008l-.062-.03a29 29 0 0 0-.959-.45a13 13 0 0 0-.803-.33a4 4 0 0 0-.309-.1a1 1 0 0 0-.119-.026l-.009.002c-.02.003-.073.014-.172.042a9 9 0 0 0-.492.161c-.388.137-.865.322-1.332.509a87 87 0 0 0-1.651.681l-.111.047zm-.657-.263a.5.5 0 0 1 .263-.656l.197.46l.197.459a.5.5 0 0 1-.657-.263m-1.903 3.96a.5.5 0 0 1 .707-.02l-.344.363l-.343.364a.5.5 0 0 1-.02-.707m4.57 3.387l2.763 1.036a1.5 1.5 0 0 0 1.587-.344l2.09-2.09a.5.5 0 0 1 .707.708l-2.09 2.09a2.5 2.5 0 0 1-2.645.572l-2.82-1.057l-.023-.011a3 3 0 0 1-.434-.292c-.162-.125-.352-.28-.557-.455a57 57 0 0 1-1.358-1.199a128 128 0 0 1-1.623-1.5l-.109-.102l-.038-.036l.343-.364l.344-.363l.037.035l.107.101a132 132 0 0 0 1.61 1.488c.46.417.935.84 1.333 1.178c.2.169.377.313.52.424c.132.101.215.157.256.18M3.67 14.288a.5.5 0 0 1 .703-.063l.959.8a1.5 1.5 0 0 0 .753.334l1.236.174a.5.5 0 1 1-.138.99l-1.237-.173a2.5 2.5 0 0 1-1.255-.557l-.959-.8a.5.5 0 0 1-.063-.705"
                 clip-rule="evenodd" />
             </g>
-          </svg></div>
-        <h3>Review & Approval</h3>
+          </svg></div> -->
+        <!-- <h3>Review & Approval</h3> -->
       </div>
       <div class="dashed-line"></div>
       <div class="step" data-aos="zoom-in" data-aos-duration="3000">
-        <div class="icon"><svg class="svg-wrkflow" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+        <!-- <div class="icon"><svg class="svg-wrkflow" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
             viewBox="0 0 24 24">
             <circle cx="12" cy="2" r="0" fill="black">
               <animate attributeName="r" begin="0" calcMode="spline" dur="1s"
@@ -305,12 +351,12 @@
                 keySplines="0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8;0.2 0.2 0.4 0.8" repeatCount="indefinite"
                 values="0;2;0;0" />
             </circle>
-          </svg></div>
-        <h3>Final Step</h3>
+          </svg></div> -->
+        <!-- <h3>Final Step</h3> -->
       </div>
       <div class="dashed-line"></div>
       <div class="step" data-aos="zoom-in" data-aos-duration="3000">
-        <div class="icon"><svg class="svg-wrkflow" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+        <!-- <div class="icon"><svg class="svg-wrkflow" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
             viewBox="0 0 24 24">
             <g fill="none">
               <path fill="black" d="M13 3H2v14a2 2 0 0 0 2 2a2 2 0 1 1 4 0h5z" opacity="0.16" />
@@ -319,8 +365,8 @@
               <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                 d="M2 8h3m-3 4h5" />
             </g>
-          </svg></div>
-        <h3>Printing & Delivery</h3>
+          </svg></div> -->
+        <!-- <h3>Printing & Delivery</h3> -->
       </div>
       
     </div>
@@ -1286,7 +1332,7 @@
 
   <!-- info section -->
 
-  <section class="info_section">
+  <!-- <section class="info_section">
     <div class="info_container layout_padding-top">
       <div class="container">
         <div class="info_top">
@@ -1435,21 +1481,178 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
  
   <!-- end info section -->
 
   <!-- footer section -->
-  <footer class="container-fluid footer_section ">
+  <!-- <footer class="container-fluid footer_section ">
     <div class="container">
       <p>
         &copy; <span id="displayDate"></span> All Rights Reserved By
         <a href="https://html.design/">PrintZed</a>
       </p>
     </div>
-  </footer>
+  </footer> -->
   <!-- end  footer section -->
 
+
+  <style>
+    .footer-title{
+      color: #dbae34;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .footer-links{
+      list-style-type: none;
+      padding-left: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .footer-link{
+      color: white;
+      font-size: 13px;
+    }
+    .custom-flex-class{
+      display: flex;
+      justify-items: center;
+      align-items: flex-start;
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-container{
+      padding-top: 50px;
+    }
+    @media (min-width: 768px) { /* Medium devices (tablets, 768px and up) */
+      .custom-flex-class {
+        text-align: start;
+      }
+    }
+
+    @media (max-width: 768px) { /* Medium devices (tablets, 768px and up) */
+      .custom-flex-class {
+        align-items: center;
+        margin-top: 1rem;
+      }
+      .get-in-touch{
+        align-items: center;
+
+      }
+    }
+    .footer-icon{
+      width: 20px;
+      height: 20px;
+    }
+    .get-in-touch li {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 8px;
+    }
+    .footer-logo{
+      width: 200px;
+      height: 250px;
+      margin-top: 1rem;
+      object-fit: contain;
+    }
+    .footer-bottom-title{
+      font-size: 14px;
+      font-weight: 300;
+    }
+    .social-media-img{
+      width: 24px;
+      height: 24px;
+    }
+    .facebook{
+      width: 18px;
+      height: 18px;
+    }
+    .social-media-links-container{
+      display: flex;
+      gap: 10px;
+    }
+    .social-media-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    @media(max-width:700px){
+      .social-media-container{
+        flex-direction: column;
+      }
+    }
+   
+  </style>
+  <!-- footer -->
+   <footer class="footer-container">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-2 col-md-6 col-12 custom-flex-class">
+          <h3 class="footer-title">Company Info</h3>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="index.html">About Us</a></li>
+            <li><a class="footer-link" href="index.html">Carrier</a></li>
+            <li><a class="footer-link" href="index.html">We are hiring</li>
+            <li><a class="footer-link" href="index.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12 custom-flex-class">
+          <h3 class="footer-title">Legal</h3>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="index.html">About Us</a></li>
+            <li><a class="footer-link" href="index.html">Carrier</a></li>
+            <li><a class="footer-link" href="index.html">We are hiring</li>
+            <li><a class="footer-link" href="index.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12 custom-flex-class">
+          <h3 class="footer-title">Features</h3>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="index.html">Business Marketing</a></li>
+            <li><a class="footer-link" href="index.html">User Analytic</a></li>
+            <li><a class="footer-link" href="index.html">Live Chat</li>
+            <li><a class="footer-link" href="index.html">Unlimited Support</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 custom-flex-class">
+          <h3 class="footer-title">Get in touch</h3>
+          <ul class="footer-links get-in-touch">
+            <li> <img class="footer-icon" src="./icons/call-receive-svgrepo-com.svg" alt=""> <a class="footer-link" href="index.html">+971 52 538 6869 || +971 56 330 3837</a></li>
+            <li> <img class="footer-icon" src="./icons/location-pin-svgrepo-com.svg" alt=""> <a class="footer-link" href="index.html">Shop No: 13, Sheikha Noora Bldg, Near Canadian Hospital, Abu Hail Dubai - U.A.E.</a></li>
+            <li> <img class="footer-icon" src="./icons/mail-svgrepo-com.svg" alt=""> <a class="footer-link" href="index.html">info@printzed.ae || sales@printzed.ae</a></li>
+          </ul>
+        </div>
+        
+
+        
+        <div class="col-lg-2 col-md-6 col-12 custom-flex-class">
+           <img src="./img/print-logo.png" class="footer-logo" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="container social-media-container">
+    
+
+      <p class="footer-bottom-title">&copy; Printzed all rights reserved | Powered by Printzed</p>
+      <div class="social-media-links-container">
+        <a href="">
+          <img class="facebook" src="./icons/facebook-svgrepo-com (1).svg" alt="">
+        </a>
+        <a href="">
+          <img class="social-media-img" src="./icons/instagram-svgrepo-com.svg" alt="">
+        </a>
+        <a href="">
+          <img class="social-media-img" src="./icons/twitter-svgrepo-com.svg" alt="">
+        </a>
+      </div>
+   
+
+    </div>
+   </footer>
+   <!-- footer -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 <script src="js/jquery-3.4.1.min.js"></script>

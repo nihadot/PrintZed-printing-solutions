@@ -6,10 +6,10 @@ body {
 }
 /* Make the header fixed to the top */
 .header_section {
-  position: fixed;
-  top: 0;
-  width: 100%; /* Ensure it spans the full width */
-  z-index: 1000; /* Make sure it stays above other content */
+  /* position: fixed; */
+  /* top: 0; */
+  /* width: 100%;  */
+  /* z-index: 1000;  */
   background-color: black; /* Background color so content won't overlap */
   transition: background-color 0.3s ease; /* Optional smooth background transition */
 }
@@ -165,7 +165,7 @@ color: #000;
   display: none;
 }
 .co{
-  margin-top: 5em;
+  margin-top: 0em;
 }
 .workflow{
   margin-top: 33em!important;
@@ -241,7 +241,7 @@ color: #000;
     width: 8em;
   }
   .top-right-img{
-    width: 22em !important;
+    width: 25em !important;
     position: absolute;
     top: -45px;
     right: 124px;
@@ -607,9 +607,10 @@ h2 {
   background-color: #ffc107;
   padding: 20px;
   margin: 10px;
-  border-radius: 5px;
-  min-width: 150px;
-  max-width: 200px;
+  border-radius: 15px;
+  width: 150px;
+  /* max-width: 200px; */
+  height: 170px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -1568,7 +1569,9 @@ a:focus {
 
 
 
-
+a{
+  color: white!important;
+}
 .delivery-section-container{
   width: 100%;
   height: auto;
